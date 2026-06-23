@@ -1,20 +1,54 @@
-<<<<<<< HEAD
-# React + Vite
+# YoJobs – Job Search Portal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+YoJobs is a responsive job search portal built using React.js and Firebase Firestore. The application allows users to search job opportunities and redirect to the respective company career pages for application submission.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+* Search jobs by title
+* Search jobs by company name
+* Search jobs by required skills
+* Real-time job retrieval from Firebase Firestore
+* Responsive user interface
+* Dynamic job listing display
+* Direct redirection to company career pages
+* Job posting date tracking using Day.js
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies Used
 
-## Expanding the ESLint configuration
+### Frontend
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# yojobs
->>>>>>> b073e5a6935560ac06a464e12aa2b8c1084c6fd6
+* React.js
+* JavaScript
+* Tailwind CSS
+
+### Database
+
+* Firebase Firestore
+
+### Utilities
+
+* Day.js
+
+## Skills Demonstrated
+
+* React Functional Components
+* React Hooks (useState, useEffect)
+* Firebase Integration
+* State Management
+* Dynamic Rendering
+* Responsive UI Design
+* Search and Filtering Logic
+
+## Future Enhancements
+
+* Search by location and experience
+* User authentication
+* Saved jobs functionality
+* Resume upload feature
+* Employer dashboard
+
+## Author
+
+Naresh B
